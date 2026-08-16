@@ -1,0 +1,35 @@
+# StudioFAQ Accordion Builder
+
+StudioFAQ Accordion Builder is a powerful WordPress plugin for creating beautiful, responsive FAQ sections, accordions, and structured FAQ content.
+
+## Features
+
+- AI-powered FAQ generation
+- Accordion layouts
+- FAQ schema support
+- Gutenberg/block editor integration
+- Responsive frontend design
+- Admin FAQ management
+- Customizable FAQ output
+- Translation-ready
+- Lightweight and developer-friendly
+
+## Requirements
+
+- WordPress 6.0+
+- PHP 7.4+
+
+## Installation
+
+1. Download the plugin.
+2. Upload the `studiofaq-accordion-builder` folder to `/wp-content/plugins/`.
+3. Activate the plugin from the WordPress Plugins screen.
+4. Configure StudioFAQ from the WordPress admin panel.
+
+## Development
+
+This repository contains the development version of StudioFAQ Accordion Builder.
+
+## License
+
+StudioFAQ Accordion Builder is licensed under the GPL-2.0-or-later license.
