@@ -1,0 +1,193 @@
+/**
+ * StudioFAQ - Front-end Styles
+ */
+
+.studiofaq-main-title {
+	margin: 0 0 16px;
+	color: var(--faq-header-text-active, #1d2327);
+}
+
+.studiofaq-wrapper {
+	max-width: 100%;
+	margin: 24px 0;
+	font-family: inherit;
+	color: #1d2327;
+	box-sizing: border-box;
+}
+
+.studiofaq-wrapper * {
+	box-sizing: border-box;
+}
+
+/* ---------------------------------- */
+/* Accordion Style                     */
+/* ---------------------------------- */
+
+.studiofaq-style-accordion .studiofaq-accordion-item {
+	border: 1px solid var(--faq-border, #e2e2e7);
+	border-radius: 8px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background: var(--faq-content-bg, #fff);
+	transition: box-shadow 0.2s ease;
+}
+
+.studiofaq-style-accordion .studiofaq-accordion-item:hover {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.studiofaq-accordion-trigger {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	background: var(--faq-header-bg, #fafafa);
+	border: none;
+	cursor: pointer;
+	padding: 16px 18px;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: left;
+	color: var(--faq-header-text, #1d2327);
+	transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.studiofaq-accordion-trigger:hover {
+	background: var(--faq-header-bg-hover, #f2f0fb);
+}
+
+.studiofaq-accordion-item.is-open .studiofaq-accordion-trigger {
+	background: var(--faq-header-bg-hover, #f2f0fb);
+	color: var(--faq-header-text-active, #5b21b6);
+}
+
+.studiofaq-accordion-icon {
+	flex-shrink: 0;
+	width: 24px;
+	height: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	line-height: 1;
+	color: var(--faq-icon, #6d28d9);
+	transition: transform 0.25s ease;
+}
+
+.studiofaq-accordion-item.is-open .studiofaq-accordion-icon {
+	transform: rotate(45deg);
+}
+
+.studiofaq-accordion-panel {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+}
+
+.studiofaq-accordion-panel-inner {
+	padding: 4px 18px 18px;
+	font-size: 15px;
+	line-height: 1.65;
+	color: var(--faq-content-text, #3c434a);
+}
+
+.studiofaq-accordion-panel-inner p:first-child {
+	margin-top: 0;
+}
+
+.studiofaq-accordion-panel-inner p:last-child {
+	margin-bottom: 0;
+}
+
+/* ---------------------------------- */
+/* Minimal Cards Style                 */
+/* ---------------------------------- */
+
+.studiofaq-style-cards {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 14px;
+}
+
+.studiofaq-card {
+	background: var(--faq-content-bg, #fff);
+	border: 1px solid var(--faq-border, #e2e2e7);
+	border-radius: 10px;
+	padding: 20px 22px;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.studiofaq-card:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.studiofaq-card-question {
+	margin: 0 0 8px;
+	font-size: 17px;
+	font-weight: 700;
+	color: var(--faq-header-text, #1d2327);
+	line-height: 1.4;
+}
+
+.studiofaq-card-answer {
+	font-size: 15px;
+	line-height: 1.65;
+	color: var(--faq-content-text, #3c434a);
+}
+
+.studiofaq-card-answer p:first-child {
+	margin-top: 0;
+}
+
+.studiofaq-card-answer p:last-child {
+	margin-bottom: 0;
+}
+
+/* ---------------------------------- */
+/* Clean List Style                    */
+/* ---------------------------------- */
+
+.studiofaq-list {
+	margin: 0;
+}
+
+.studiofaq-list-question {
+	font-size: 16px;
+	font-weight: 700;
+	color: var(--faq-header-text, #1d2327);
+	margin: 0;
+	padding: 14px 0 6px;
+	border-top: 1px solid var(--faq-border, #e2e2e7);
+}
+
+.studiofaq-list dt.studiofaq-list-question:first-child {
+	border-top: none;
+	padding-top: 0;
+}
+
+.studiofaq-list-answer {
+	margin: 0 0 4px;
+	font-size: 15px;
+	line-height: 1.65;
+	color: var(--faq-content-text, #3c434a);
+}
+
+.studiofaq-list-answer p:first-child {
+	margin-top: 0;
+}
+
+.studiofaq-list-answer p:last-child {
+	margin-bottom: 0;
+}
+
+/* ---------------------------------- */
+/* Responsive                          */
+/* ---------------------------------- */
+
+@media (min-width: 700px) {
+	.studiofaq-style-cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

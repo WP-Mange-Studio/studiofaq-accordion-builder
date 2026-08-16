@@ -1,0 +1,527 @@
+# Copyright (C) 2026 WP Manage Studio
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: StudioFAQ Accordion Builder 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/studiofaq-accordion-builder\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-15T00:00:00+00:00\n"
+"X-Generator: manual\n"
+"X-Domain: studiofaq-accordion-builder\n"
+
+#: assets/js/block.js:157
+msgid "Save or publish this post to preview the FAQ block."
+msgstr ""
+
+#: includes/class-admin-settings.php:89 includes/class-admin-settings.php:103 includes/class-admin-settings.php:921
+msgid "StudioFAQ Settings"
+msgstr ""
+
+#: includes/class-admin-settings.php:90 includes/class-faq-block.php:40 includes/class-faq-block.php:168
+msgid "StudioFAQ"
+msgstr ""
+
+#: includes/class-admin-settings.php:104
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin-settings.php:372
+msgid "AI Provider & Style Settings"
+msgstr ""
+
+#: includes/class-admin-settings.php:379
+msgid "OpenAI API Key"
+msgstr ""
+
+#: includes/class-admin-settings.php:387
+msgid "Google Gemini API Key"
+msgstr ""
+
+#: includes/class-admin-settings.php:395
+msgid "Kimi AI (Moonshot) API Key"
+msgstr ""
+
+#: includes/class-admin-settings.php:403
+msgid "Groq API Key"
+msgstr ""
+
+#: includes/class-admin-settings.php:411
+msgid "Active AI Model"
+msgstr ""
+
+#: includes/class-admin-settings.php:419
+msgid "Default Style Template"
+msgstr ""
+
+#: includes/class-admin-settings.php:427
+msgid "FAQ Schema (JSON-LD)"
+msgstr ""
+
+#: includes/class-admin-settings.php:435
+msgid "On Uninstall"
+msgstr ""
+
+#: includes/class-admin-settings.php:448
+msgid "Style & Branding Defaults"
+msgstr ""
+
+#: includes/class-admin-settings.php:455
+msgid "Default FAQ Section Title"
+msgstr ""
+
+#: includes/class-admin-settings.php:463 includes/class-faq-block.php:180
+msgid "Title Heading Tag"
+msgstr ""
+
+#: includes/class-admin-settings.php:470
+msgid "Header Background Color"
+msgstr ""
+
+#: includes/class-admin-settings.php:471
+msgid "Header Background Color (Hover / Active)"
+msgstr ""
+
+#: includes/class-admin-settings.php:472
+msgid "Header Text Color"
+msgstr ""
+
+#: includes/class-admin-settings.php:473
+msgid "Header Text Color (Active)"
+msgstr ""
+
+#: includes/class-admin-settings.php:474
+msgid "Content Text Color"
+msgstr ""
+
+#: includes/class-admin-settings.php:475
+msgid "Content Background Color"
+msgstr ""
+
+#: includes/class-admin-settings.php:476
+msgid "Border Color"
+msgstr ""
+
+#: includes/class-admin-settings.php:477
+msgid "Icon Color"
+msgstr ""
+
+#: includes/class-admin-settings.php:523
+msgid "One or more API keys were NOT saved: this server's PHP/OpenSSL build does not support AES-256-GCM encryption, and StudioFAQ will not store API keys in plaintext. Ask your host to enable OpenSSL with AES-256-GCM support, then try again. Any previously saved key was left unchanged."
+msgstr ""
+
+#: includes/class-admin-settings.php:569
+msgid "StudioFAQ settings saved successfully."
+msgstr ""
+
+#: includes/class-admin-settings.php:637
+msgid "Enter your API keys below to enable AI-powered FAQ generation. Keys are encrypted before being stored in the WordPress options table and are never shared."
+msgstr ""
+
+#: includes/class-admin-settings.php:655 includes/class-admin-settings.php:684 includes/class-admin-settings.php:714 includes/class-admin-settings.php:744
+msgid "•••••••••••••••••••• (key saved — leave blank to keep it)"
+msgstr ""
+
+#: includes/class-admin-settings.php:657 includes/class-admin-settings.php:686 includes/class-admin-settings.php:716 includes/class-admin-settings.php:746
+msgid "Key saved"
+msgstr ""
+
+#: includes/class-admin-settings.php:663 includes/class-admin-settings.php:692 includes/class-admin-settings.php:722 includes/class-admin-settings.php:752
+#. translators: %s: link to OpenAI platform
+msgid "Don't have a key? %s"
+msgstr ""
+
+#: includes/class-admin-settings.php:664
+msgid "Generate an OpenAI API key"
+msgstr ""
+
+#: includes/class-admin-settings.php:693
+msgid "Generate a Google Gemini API key"
+msgstr ""
+
+#: includes/class-admin-settings.php:723
+msgid "Generate a Kimi AI (Moonshot) API key"
+msgstr ""
+
+#: includes/class-admin-settings.php:753
+msgid "Generate a Groq API key"
+msgstr ""
+
+#: includes/class-admin-settings.php:767
+msgid "OpenAI (ChatGPT)"
+msgstr ""
+
+#: includes/class-admin-settings.php:768
+msgid "Google Gemini"
+msgstr ""
+
+#: includes/class-admin-settings.php:769
+msgid "Kimi AI (Moonshot)"
+msgstr ""
+
+#: includes/class-admin-settings.php:770
+msgid "Groq"
+msgstr ""
+
+#: includes/class-admin-settings.php:772
+msgid "Choose which AI provider should be used when generating FAQs."
+msgstr ""
+
+#: includes/class-admin-settings.php:782 includes/class-faq-block.php:172
+msgid "Accordion"
+msgstr ""
+
+#: includes/class-admin-settings.php:783 includes/class-faq-block.php:173
+msgid "Minimal Cards"
+msgstr ""
+
+#: includes/class-admin-settings.php:784 includes/class-faq-block.php:174
+msgid "Clean List"
+msgstr ""
+
+#: includes/class-admin-settings.php:792
+msgid "This style is used by default when rendering [studiofaq-accordion-builder] unless overridden with a style attribute."
+msgstr ""
+
+#: includes/class-admin-settings.php:811
+msgid "Output FAQPage structured data (JSON-LD) alongside the FAQ accordion."
+msgstr ""
+
+#: includes/class-admin-settings.php:815
+msgid "This adds optional, standard schema.org markup describing your FAQ content in machine-readable form. It does not guarantee any particular appearance in Google or other search results — search engines decide independently whether and how to use it. If you already use an SEO plugin (Yoast, Rank Math, AIOSEO, etc.) that adds its own FAQ schema, leave this off to avoid duplicate markup on the same page."
+msgstr ""
+
+#: includes/class-admin-settings.php:835
+msgid "Permanently delete all StudioFAQ settings and saved FAQ data when this plugin is deleted from the Plugins screen."
+msgstr ""
+
+#: includes/class-admin-settings.php:837
+msgid "Leave unchecked to keep your FAQ data if you reinstall the plugin later. This only takes effect when the plugin is deleted, not when it is deactivated."
+msgstr ""
+
+#: includes/class-admin-settings.php:845
+msgid "These are the site-wide defaults used to render the FAQ section title and accordion colors. Any individual post or page can override them from its \"StudioFAQ Builder\" meta box."
+msgstr ""
+
+#: includes/class-admin-settings.php:859
+msgid "e.g. Frequently Asked Questions"
+msgstr ""
+
+#: includes/class-admin-settings.php:860
+msgid "Leave blank to render the FAQ block without a title unless a post overrides this."
+msgstr ""
+
+#: includes/class-admin-settings.php:875
+msgid "HTML tag used to wrap the FAQ section title. Choose based on your page's existing heading structure for SEO."
+msgstr ""
+
+#: includes/class-admin-settings.php:922
+msgid "Configure your AI providers and default FAQ style below."
+msgstr ""
+
+#: includes/class-admin-settings.php:927
+msgid "Secure API key storage is unavailable on this server."
+msgstr ""
+
+#: includes/class-admin-settings.php:928
+msgid "This server's PHP build does not support AES-256-GCM encryption (via the OpenSSL extension). To protect your API keys, StudioFAQ will refuse to save any new API key until this is fixed — it will never store a key in plaintext as a fallback. Please ask your hosting provider to enable the OpenSSL extension with AES-256-GCM cipher support."
+msgstr ""
+
+#: includes/class-admin-settings.php:937
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class-admin-settings.php:942
+msgid "How to Use"
+msgstr ""
+
+#: includes/class-admin-settings.php:943
+msgid "Open any Post or Page editor, find the \"StudioFAQ Builder\" meta box, and click \"Generate FAQs with AI\" or add FAQs manually. Then insert the shortcode below wherever you want your FAQs displayed:"
+msgstr ""
+
+#: includes/class-admin-settings.php:944
+msgid "or"
+msgstr ""
+
+#: includes/class-ai-handler.php:89
+msgid "Invalid or missing post reference."
+msgstr ""
+
+#: includes/class-ai-handler.php:95
+msgid "You do not have permission to edit this post."
+msgstr ""
+
+#: includes/class-ai-handler.php:104
+msgid "No content was provided to generate FAQs from."
+msgstr ""
+
+#: includes/class-ai-handler.php:215
+msgid "Please wait a few seconds before generating FAQs again."
+msgstr ""
+
+#: includes/class-ai-handler.php:240
+msgid "You have reached today's AI FAQ generation limit. Please try again tomorrow, or add FAQs manually."
+msgstr ""
+
+#: includes/class-ai-handler.php:280
+msgid "OpenAI API key is not configured. Please add it in StudioFAQ settings."
+msgstr ""
+
+#: includes/class-ai-handler.php:325
+msgid "OpenAI API request failed."
+msgstr ""
+
+#: includes/class-ai-handler.php:330
+msgid "OpenAI returned an empty response."
+msgstr ""
+
+#: includes/class-ai-handler.php:351
+msgid "Kimi AI (Moonshot) API key is not configured. Please add it in StudioFAQ settings."
+msgstr ""
+
+#: includes/class-ai-handler.php:396
+msgid "Kimi AI (Moonshot) API request failed."
+msgstr ""
+
+#: includes/class-ai-handler.php:401
+msgid "Kimi AI returned an empty response."
+msgstr ""
+
+#: includes/class-ai-handler.php:430
+msgid "Groq API key is not configured. Please add it in StudioFAQ settings."
+msgstr ""
+
+#: includes/class-ai-handler.php:475
+msgid "Groq API request failed."
+msgstr ""
+
+#: includes/class-ai-handler.php:480
+msgid "Groq returned an empty response."
+msgstr ""
+
+#: includes/class-ai-handler.php:502
+msgid "Google Gemini API key is not configured. Please add it in StudioFAQ settings."
+msgstr ""
+
+#: includes/class-ai-handler.php:574
+msgid "Google Gemini API request failed."
+msgstr ""
+
+#: includes/class-ai-handler.php:579 includes/class-ai-handler.php:596
+msgid "Google Gemini returned an empty response."
+msgstr ""
+
+#: includes/class-ai-handler.php:639 includes/class-ai-handler.php:648
+msgid "The AI response could not be parsed. Please try again."
+msgstr ""
+
+#: includes/class-ai-handler.php:672
+msgid "The AI did not return any usable FAQs. Please try again or add FAQs manually."
+msgstr ""
+
+#: includes/class-faq-block.php:41 includes/class-faq-block.php:169
+msgid "Display AI-generated FAQs for this post or page, with optional semantic FAQ markup."
+msgstr ""
+
+#: includes/class-faq-block.php:170
+msgid "FAQ Style"
+msgstr ""
+
+#: includes/class-faq-block.php:171
+msgid "Site Default"
+msgstr ""
+
+#: includes/class-faq-block.php:175
+msgid "FAQ Settings"
+msgstr ""
+
+#: includes/class-faq-block.php:176
+msgid "FAQ content is managed in the \"StudioFAQ Builder\" meta box below the editor."
+msgstr ""
+
+#: includes/class-faq-block.php:177
+msgid "Section Title"
+msgstr ""
+
+#: includes/class-faq-block.php:178
+msgid "FAQ Section Title"
+msgstr ""
+
+#: includes/class-faq-block.php:179
+msgid "Leave blank to use the site default (or the per-post override) from the meta box below."
+msgstr ""
+
+#: includes/class-faq-block.php:181
+msgid "Use Default"
+msgstr ""
+
+#: includes/class-faq-block.php:182
+msgid "Accordion colors can be customized in the \"Display Settings\" panel of the StudioFAQ Builder meta box, or set as site-wide defaults on the StudioFAQ → Settings page."
+msgstr ""
+
+#: includes/class-faq-meta-box.php:38
+msgid "StudioFAQ Builder"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:116
+msgid "✨ AI Generate"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:119
+msgid "+ Manual FAQ"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:126 studiofaq.php:246
+msgid "✨ Generate FAQs with AI"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:132
+msgid "AI-generated FAQs are drafts. Review factual accuracy, pricing, legal, medical, and product claims before publishing."
+msgstr ""
+
+#: includes/class-faq-meta-box.php:139
+msgid "+ Add Manual FAQ"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:143
+msgid "Add a blank row and write your own question and answer below."
+msgstr ""
+
+#: includes/class-faq-meta-box.php:168
+msgid "Live Preview"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:169
+msgid "(updates as you type — no need to save first)"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:175
+msgid "Shortcode:"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:177
+msgid "Copy"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:179
+msgid "You can also use [studiofaq-accordion-builder] without an ID inside this post/page content."
+msgstr ""
+
+#: includes/class-faq-meta-box.php:197
+msgid "Header Background"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:198
+msgid "Header Background (Hover/Active)"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:199
+msgid "Header Text"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:200
+msgid "Header Text (Active)"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:201
+msgid "Content Text"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:202
+msgid "Content Background"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:203
+msgid "Border"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:204
+msgid "Icon"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:208
+msgid "Display Settings (Title, Heading Tag & Colors)"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:211
+msgid "Leave any field blank to use the site-wide default from StudioFAQ → Settings."
+msgstr ""
+
+#: includes/class-faq-meta-box.php:214
+msgid "FAQ Section Title (overrides default)"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:219
+msgid "Use site default"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:223
+msgid "Title Heading Tag (overrides default)"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:225
+msgid "Use Site Default"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:233
+msgid "Colors (override default)"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:264
+msgid "Drag to reorder"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:267 studiofaq.php:250
+msgid "Question"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:272
+msgid "Enter question…"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:275 studiofaq.php:251
+msgid "Answer"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:280
+msgid "Enter answer…"
+msgstr ""
+
+#: includes/class-faq-meta-box.php:283
+msgid "Remove"
+msgstr ""
+
+#: includes/class-faq-renderer.php:114
+msgid "No FAQs added yet. Open the \"StudioFAQ Builder\" meta box below the content editor to generate or add FAQs — they will appear here automatically."
+msgstr ""
+
+#: studiofaq.php:245
+msgid "Generating FAQs…"
+msgstr ""
+
+#: studiofaq.php:247
+msgid "Something went wrong while generating FAQs. Please try again."
+msgstr ""
+
+#: studiofaq.php:248
+msgid "Please add some content to the post before generating FAQs."
+msgstr ""
+
+#: studiofaq.php:249
+msgid "Remove this FAQ item?"
+msgstr ""
+
+#: studiofaq.php:252
+msgid "Add a question and answer above to see a live preview here."
+msgstr ""
+
+#: studiofaq.php:254
+#. translators: %d: number of FAQs generated.
+msgid "%d FAQs generated successfully."
+msgstr ""
+
+#: studiofaq.php:255
+msgid "Copied!"
+msgstr ""
+

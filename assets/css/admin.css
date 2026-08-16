@@ -1,0 +1,379 @@
+/**
+ * StudioFAQ - Admin Styles
+ */
+
+.studiofaq-metabox {
+	padding: 4px 2px;
+}
+
+/* Tab strip for switching between "Generate FAQs with AI" and
+   "+ Add Manual FAQ" — only the active tab's panel is shown below it. */
+.studiofaq-tabs {
+	display: flex;
+	gap: 4px;
+	margin-bottom: 14px;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.studiofaq-tab {
+	appearance: none;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid transparent;
+	margin-bottom: -1px;
+	padding: 10px 14px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #50575e;
+	cursor: pointer;
+}
+
+.studiofaq-tab:hover {
+	color: #1d2327;
+}
+
+.studiofaq-tab:focus-visible {
+	outline: 2px solid #6d28d9;
+	outline-offset: -2px;
+}
+
+.studiofaq-tab-active,
+.studiofaq-tab-active:hover {
+	color: #6d28d9;
+	border-bottom-color: #6d28d9;
+}
+
+.studiofaq-tab-panel {
+	margin-bottom: 4px;
+}
+
+.studiofaq-toolbar {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 14px;
+	flex-wrap: wrap;
+}
+
+.studiofaq-toolbar .button-primary {
+	background: #6d28d9;
+	border-color: #5b21b6;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+.studiofaq-toolbar .button-primary:hover,
+.studiofaq-toolbar .button-primary:focus {
+	background: #5b21b6;
+	border-color: #4c1d95;
+}
+
+.studiofaq-spinner.spinner {
+	float: none;
+	margin: 0;
+	visibility: hidden;
+}
+
+.studiofaq-spinner.spinner.is-active {
+	visibility: visible;
+}
+
+.studiofaq-ai-disclaimer {
+	display: flex;
+	align-items: flex-start;
+	gap: 6px;
+	margin: 0 0 14px;
+	padding: 8px 12px;
+	font-size: 12.5px;
+	line-height: 1.5;
+	color: #646970;
+	background: #f6f7f7;
+	border-left: 4px solid #dba617;
+	border-radius: 2px;
+}
+
+.studiofaq-ai-disclaimer .dashicons {
+	flex-shrink: 0;
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+	color: #dba617;
+	margin-top: 1px;
+}
+
+.studiofaq-notice {
+	padding: 10px 14px;
+	border-left: 4px solid #72aee6;
+	background: #f0f6fc;
+	margin-bottom: 14px;
+	border-radius: 2px;
+}
+
+.studiofaq-notice.notice-success {
+	border-left-color: #46b450;
+	background: #edfaef;
+}
+
+.studiofaq-notice.notice-error {
+	border-left-color: #d63638;
+	background: #fcf0f1;
+}
+
+.studiofaq-repeater {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.studiofaq-row {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 12px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.studiofaq-row:hover {
+	border-color: #c3c4c7;
+}
+
+.studiofaq-drag-handle {
+	cursor: grab;
+	color: #a7aaad;
+	font-size: 18px;
+	line-height: 1;
+	padding-top: 26px;
+	user-select: none;
+}
+
+.studiofaq-drag-handle:active {
+	cursor: grabbing;
+}
+
+.studiofaq-row-fields {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.studiofaq-row-fields label {
+	display: block;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	color: #50575e;
+}
+
+.studiofaq-row-fields input[type="text"],
+.studiofaq-row-fields textarea {
+	margin-top: 4px;
+	font-weight: 400;
+	text-transform: none;
+	font-size: 14px;
+	color: #1d2327;
+}
+
+.studiofaq-remove-row {
+	background: transparent;
+	border: none;
+	color: #b32d2e;
+	font-size: 22px;
+	line-height: 1;
+	cursor: pointer;
+	padding: 4px 8px;
+	border-radius: 4px;
+}
+
+.studiofaq-remove-row:hover {
+	background: #fcf0f1;
+}
+
+.studiofaq-row-placeholder {
+	border: 2px dashed #c3c4c7;
+	border-radius: 6px;
+	margin-bottom: 10px;
+	background: #f6f7f7;
+	height: 90px;
+}
+
+.studiofaq-shortcode-hint {
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 12px 14px;
+	margin-top: 16px;
+}
+
+.studiofaq-live-preview-wrap {
+	margin-top: 20px;
+}
+
+.studiofaq-live-preview-heading {
+	margin: 0 0 8px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	color: #50575e;
+}
+
+.studiofaq-live-preview-hint {
+	font-weight: 400;
+	text-transform: none;
+	font-size: 12px;
+	color: #8c8f94;
+	letter-spacing: normal;
+	margin-left: 4px;
+}
+
+.studiofaq-live-preview-frame {
+	border: 1px dashed #c3c4c7;
+	border-radius: 6px;
+	padding: 16px;
+	background: #fbfbfc;
+	min-height: 60px;
+}
+
+.studiofaq-live-preview-frame .studiofaq-wrapper {
+	margin: 0;
+}
+
+.studiofaq-shortcode-hint code {
+	background: #fff;
+	padding: 3px 8px;
+	border-radius: 4px;
+	border: 1px solid #dcdcde;
+}
+
+.studiofaq-shortcode-hint .description {
+	display: block;
+	margin-top: 6px;
+	color: #646970;
+}
+
+#studiofaq-row-template {
+	display: none;
+}
+
+/* Settings Page */
+.studiofaq-settings-wrap .form-table th {
+	width: 240px;
+}
+
+.studiofaq-usage-box {
+	margin-top: 30px;
+	padding: 16px 20px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-left: 4px solid #6d28d9;
+	border-radius: 4px;
+	max-width: 700px;
+}
+
+.studiofaq-usage-box code {
+	background: #f6f7f7;
+	padding: 3px 8px;
+	border-radius: 4px;
+}
+
+.studiofaq-key-status {
+	display: inline-block;
+	margin-left: 8px;
+	color: #00a32a;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+/* Display Settings panel (title, heading tag, colors) in the meta box */
+.studiofaq-display-settings {
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 4px 14px;
+	margin-bottom: 16px;
+}
+
+.studiofaq-display-settings summary {
+	cursor: pointer;
+	font-weight: 600;
+	padding: 10px 0;
+	color: #1d2327;
+}
+
+.studiofaq-display-settings-inner {
+	padding: 4px 0 16px;
+}
+
+.studiofaq-field-label {
+	display: block;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	color: #50575e;
+	margin-bottom: 14px;
+}
+
+.studiofaq-field-label input[type="text"],
+.studiofaq-field-label select {
+	display: block;
+	margin-top: 4px;
+	font-weight: 400;
+	text-transform: none;
+	font-size: 14px;
+	color: #1d2327;
+}
+
+.studiofaq-color-table {
+	display: flex;
+	flex-direction: column;
+	max-width: 560px;
+}
+
+/* Each row: [field name] [Select Color swatch] [hex input] [Default/Clear],
+   label in a fixed-width left column so every row lines up — same layout
+   as the global StudioFAQ → Settings page. */
+.studiofaq-color-row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px 16px;
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+	cursor: default;
+}
+
+.studiofaq-color-row:last-child {
+	border-bottom: none;
+}
+
+.studiofaq-color-name {
+	flex: 0 0 200px;
+	font-weight: 600;
+	font-size: 13px;
+	color: #1d2327;
+}
+
+.studiofaq-color-field.wp-color-result {
+	margin-top: 0;
+}
+
+/* Keep the built-in "Clear"/"Default" button and hex input on one line —
+   with the field wide enough (see max-width above) they no longer wrap
+   onto separate rows. */
+.wp-picker-container .wp-picker-input-wrap {
+	display: inline-flex !important;
+	align-items: center;
+	gap: 6px;
+	flex-wrap: nowrap;
+}
+
+/* Make sure each field's picker sits above the next field, never overlapped. */
+.wp-picker-container {
+	margin-bottom: 4px;
+}
